@@ -2,11 +2,6 @@
 
 **SDN + Python TCP/UDP sockets + Mininet + OpenFlow 1.3**
 
-> This is an extension of the provided D1 ZIP, not a different project. It keeps the
-> same two clients (`h1`, `h2`), three servers (`srv1`–`srv3`), VIP, TCP file protocol,
-> UDP heartbeats and single OVS switch. D2 adds *real* failure handling, simulations
-> and measurement. All D2 benchmarking numbers are collected at runtime.
-
 ## 1. Problem and objectives
 
 Many replicated content servers provide the same files. A client should access one
